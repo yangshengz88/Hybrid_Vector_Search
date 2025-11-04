@@ -1,0 +1,12 @@
+{
+  "embedding_dim": 10,
+  "n_samples": 169776,
+  "nlist": 412,
+  "index_type": "IVFFlat",
+  "metric": "L2",
+  "recommended_nprobe": [
+    10,
+    20,
+    50
+  ]
+}
