@@ -63,7 +63,7 @@ Our project addresses these limitations through **predicate pushdown over IVF-Fl
 
 ### **Section 4**- Evaluation and Plots
 - `Baseline_tests.ipynb`
-- `Hybrid_Method.ipynb'
+- `Hybrid_Method.ipynb`
 
 ---
 
