@@ -97,7 +97,8 @@ This compact representation is optimized for FAISS vector search while preservin
 - Retrieve a large unfiltered pool (pool_size = 500)  
 - Apply metadata filters  
 - Recompute exact distances and rerank  
-- Faster but may lose recall for selective queries  
+- Faster but may lose recall for selective queries
+- Although our hybrid system uses nprobe-based ANN traversal, we intentionally retain the pool_size-based baseline so both approaches can be evaluated side-by-side.  
 
 ---
 
